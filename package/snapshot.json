@@ -1,0 +1,337 @@
+[
+  {
+    "notes": [
+      {
+        "duration": 1,
+        "gain": 1,
+        "frequency": 2,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 0.9
+      },
+      {
+        "duration": 4,
+        "gain": 1,
+        "frequency": 5,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 3.9
+      },
+      {
+        "duration": 1,
+        "gain": 1,
+        "frequency": 2,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 0.9
+      },
+      {
+        "duration": 5,
+        "gain": 1,
+        "frequency": 6,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 4.9
+      },
+      {
+        "duration": 9,
+        "gain": 1,
+        "frequency": 10,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 8.9
+      },
+      {
+        "duration": 2,
+        "gain": 1,
+        "frequency": 3,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 1.9
+      },
+      {
+        "duration": 6,
+        "gain": 1,
+        "frequency": 7,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 5.9
+      },
+      {
+        "duration": 5,
+        "gain": 1,
+        "frequency": 6,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 4.9
+      },
+      {
+        "duration": 3,
+        "gain": 1,
+        "frequency": 4,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 2.9
+      },
+      {
+        "duration": 5,
+        "gain": 1,
+        "frequency": 6,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 4.9
+      },
+      {
+        "duration": 8,
+        "gain": 1,
+        "frequency": 9,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 7.9
+      },
+      {
+        "duration": 9,
+        "gain": 1,
+        "frequency": 10,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 8.9
+      },
+      {
+        "duration": 7,
+        "gain": 1,
+        "frequency": 8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 6.9
+      },
+      {
+        "duration": 9,
+        "gain": 1,
+        "frequency": 10,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 8.9
+      },
+      {
+        "duration": 3,
+        "gain": 1,
+        "frequency": 4,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 2.9
+      },
+      {
+        "duration": 2,
+        "gain": 1,
+        "frequency": 3,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 1.9
+      },
+      {
+        "duration": 3,
+        "gain": 1,
+        "frequency": 4,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 2.9
+      },
+      {
+        "duration": 8,
+        "gain": 1,
+        "frequency": 9,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 7.9
+      },
+      {
+        "duration": 4,
+        "gain": 1,
+        "frequency": 5,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 3.9
+      }
+    ],
+    "voiceSpec": {
+      "timbreName": "SAWTOOTH",
+      "voiceType": "OSCILLATOR"
+    }
+  },
+  {
+    "notes": [
+      {
+        "duration": 7,
+        "gain": 1,
+        "frequency": 8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 6.9
+      },
+      {
+        "duration": 0,
+        "gain": 1,
+        "frequency": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": -0.1
+      },
+      {
+        "duration": 6,
+        "gain": 1,
+        "frequency": 7,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 5.9
+      },
+      {
+        "duration": 8,
+        "gain": 1,
+        "frequency": 9,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 7.9
+      },
+      {
+        "duration": 0,
+        "gain": 1,
+        "frequency": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": -0.1
+      },
+      {
+        "duration": 7,
+        "gain": 1,
+        "frequency": 8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 6.9
+      },
+      {
+        "duration": 3,
+        "gain": 1,
+        "frequency": 4,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 2.9
+      },
+      {
+        "duration": 4,
+        "gain": 1,
+        "frequency": 5,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 3.9
+      },
+      {
+        "duration": 2,
+        "gain": 1,
+        "frequency": 3,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 1.9
+      },
+      {
+        "duration": 1,
+        "gain": 1,
+        "frequency": 2,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "sustain": 0.9
+      }
+    ],
+    "voiceSpec": {
+      "timbreName": "PIANO",
+      "voiceType": "SAMPLE"
+    }
+  }
+]
