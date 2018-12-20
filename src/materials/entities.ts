@@ -8,8 +8,6 @@ const buildEntities: BuildEntitiesFunction =
             secondPart,
         } = buildParts()
 
-        console.log(firstPart, secondPart)
-
         const firstEntity: Entity = {
             noteSpecs: firstPart,
             timbreName: TimbreNameEnum.SAWTOOTH,
