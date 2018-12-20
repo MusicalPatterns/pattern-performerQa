@@ -16,7 +16,7 @@ ship:
 	@set -e; pushd ../..; make ship PATTERN="performerQa"; popd
 
 test:
-	@set -e; pushd ../..; make test JASMINE_CONFIG_PATH="src/performerQa/test/jasmine.js" PATTERN_NAME="PERFORMER_QA"; popd
+	@set -e; pushd ../..; make test JASMINE_CONFIG_PATH="src/performerQa/test/jasmine.js" PATTERN="performerQa"; popd
 
 update:
 	@set -e; pushd ../..; make update PATTERN="performerQa"; popd
