@@ -1,6 +1,6 @@
 {
   "name": "@musical-patterns/pattern-performer-qa",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "main": "index.js",
   "typings": "index.d.ts",
   "license": "MIT",
