@@ -9,9 +9,9 @@
     "url": "https://github.com/MusicalPatterns/pattern-performerQa.git"
   },
   "dependencies": {
-    "@musical-patterns/compiler": "^1.0.34",
-    "@musical-patterns/pattern": "^1.0.25",
-    "@musical-patterns/utilities": "^1.0.101"
+    "@musical-patterns/compiler": "^1.0.35",
+    "@musical-patterns/pattern": "^1.0.26",
+    "@musical-patterns/utilities": "^1.0.103"
   },
   "peerDependencies": {
     "@musical-patterns/performer": "^1.0.71"
