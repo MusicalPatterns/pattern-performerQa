@@ -1,7 +1,7 @@
-const { pattern: performerQaPattern } = require('./dist')
-const performerQaSnapshot = require('./snapshot')
+const { pattern } = require('./dist')
+const snapshot = require('./snapshot')
 
 module.exports = {
-    performerQaPattern,
-    performerQaSnapshot,
+    pattern,
+    snapshot,
 }
