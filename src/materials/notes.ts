@@ -4,7 +4,8 @@ import {
     DEFAULT_OFFSET_FOR_ALMOST_FULL_SUSTAIN,
     DEFAULT_PITCH_SCALE_INDEX,
 } from '@musical-patterns/pattern'
-import { to } from '@musical-patterns/utilities'
+import { apply, to } from '@musical-patterns/utilities'
+import { CENTER_BLOCKS_ON_ORIGIN } from './constants'
 
 const buildNoteSpec: (blockElement: number) => NoteSpec =
     (blockElement: number): NoteSpec =>
@@ -17,6 +18,17 @@ const buildNoteSpec: (blockElement: number) => NoteSpec =
                 index: to.Index(blockElement),
                 scaleIndex: DEFAULT_PITCH_SCALE_INDEX,
             },
+            positionSpec: [
+                {
+                    scalar: to.Scalar(apply.Offset(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
+                },
+                {
+                    scalar: to.Scalar(apply.Offset(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
+                },
+                {
+                    scalar: to.Scalar(apply.Offset(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
+                },
+            ],
             sustainSpec: {
                 offset: DEFAULT_OFFSET_FOR_ALMOST_FULL_SUSTAIN,
                 scalar: to.Scalar(blockElement),

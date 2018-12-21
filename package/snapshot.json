@@ -6,9 +6,9 @@
         "gain": 1,
         "frequency": 200,
         "position": [
-          0,
-          0,
-          0
+          -3,
+          -3,
+          -3
         ],
         "sustain": 99.9
       },
@@ -28,9 +28,9 @@
         "gain": 1,
         "frequency": 200,
         "position": [
-          0,
-          0,
-          0
+          -3,
+          -3,
+          -3
         ],
         "sustain": 99.9
       },
@@ -39,9 +39,9 @@
         "gain": 1,
         "frequency": 600,
         "position": [
-          0,
-          0,
-          0
+          1,
+          1,
+          1
         ],
         "sustain": 499.9
       },
@@ -50,9 +50,9 @@
         "gain": 1,
         "frequency": 1000,
         "position": [
-          0,
-          0,
-          0
+          5,
+          5,
+          5
         ],
         "sustain": 899.9
       },
@@ -61,9 +61,9 @@
         "gain": 1,
         "frequency": 300,
         "position": [
-          0,
-          0,
-          0
+          -2,
+          -2,
+          -2
         ],
         "sustain": 199.9
       },
@@ -72,9 +72,9 @@
         "gain": 1,
         "frequency": 700,
         "position": [
-          0,
-          0,
-          0
+          2,
+          2,
+          2
         ],
         "sustain": 599.9
       },
@@ -83,9 +83,9 @@
         "gain": 1,
         "frequency": 600,
         "position": [
-          0,
-          0,
-          0
+          1,
+          1,
+          1
         ],
         "sustain": 499.9
       },
@@ -94,9 +94,9 @@
         "gain": 1,
         "frequency": 400,
         "position": [
-          0,
-          0,
-          0
+          -1,
+          -1,
+          -1
         ],
         "sustain": 299.9
       },
@@ -105,9 +105,9 @@
         "gain": 1,
         "frequency": 600,
         "position": [
-          0,
-          0,
-          0
+          1,
+          1,
+          1
         ],
         "sustain": 499.9
       },
@@ -116,9 +116,9 @@
         "gain": 1,
         "frequency": 900,
         "position": [
-          0,
-          0,
-          0
+          4,
+          4,
+          4
         ],
         "sustain": 799.9
       },
@@ -127,9 +127,9 @@
         "gain": 1,
         "frequency": 1000,
         "position": [
-          0,
-          0,
-          0
+          5,
+          5,
+          5
         ],
         "sustain": 899.9
       },
@@ -138,9 +138,9 @@
         "gain": 1,
         "frequency": 800,
         "position": [
-          0,
-          0,
-          0
+          3,
+          3,
+          3
         ],
         "sustain": 699.9
       },
@@ -149,9 +149,9 @@
         "gain": 1,
         "frequency": 1000,
         "position": [
-          0,
-          0,
-          0
+          5,
+          5,
+          5
         ],
         "sustain": 899.9
       },
@@ -160,9 +160,9 @@
         "gain": 1,
         "frequency": 400,
         "position": [
-          0,
-          0,
-          0
+          -1,
+          -1,
+          -1
         ],
         "sustain": 299.9
       },
@@ -171,9 +171,9 @@
         "gain": 1,
         "frequency": 300,
         "position": [
-          0,
-          0,
-          0
+          -2,
+          -2,
+          -2
         ],
         "sustain": 199.9
       },
@@ -182,9 +182,9 @@
         "gain": 1,
         "frequency": 400,
         "position": [
-          0,
-          0,
-          0
+          -1,
+          -1,
+          -1
         ],
         "sustain": 299.9
       },
@@ -193,9 +193,9 @@
         "gain": 1,
         "frequency": 900,
         "position": [
-          0,
-          0,
-          0
+          4,
+          4,
+          4
         ],
         "sustain": 799.9
       },
@@ -223,9 +223,9 @@
         "gain": 1,
         "frequency": 800,
         "position": [
-          0,
-          0,
-          0
+          3,
+          3,
+          3
         ],
         "sustain": 699.9
       },
@@ -234,9 +234,9 @@
         "gain": 1,
         "frequency": 200,
         "position": [
-          0,
-          0,
-          0
+          -3,
+          -3,
+          -3
         ],
         "sustain": 99.9
       },
@@ -245,9 +245,9 @@
         "gain": 1,
         "frequency": 700,
         "position": [
-          0,
-          0,
-          0
+          2,
+          2,
+          2
         ],
         "sustain": 599.9
       },
@@ -256,9 +256,9 @@
         "gain": 1,
         "frequency": 900,
         "position": [
-          0,
-          0,
-          0
+          4,
+          4,
+          4
         ],
         "sustain": 799.9
       },
@@ -267,9 +267,9 @@
         "gain": 1,
         "frequency": 200,
         "position": [
-          0,
-          0,
-          0
+          -3,
+          -3,
+          -3
         ],
         "sustain": 99.9
       },
@@ -278,9 +278,9 @@
         "gain": 1,
         "frequency": 800,
         "position": [
-          0,
-          0,
-          0
+          3,
+          3,
+          3
         ],
         "sustain": 699.9
       },
@@ -289,9 +289,9 @@
         "gain": 1,
         "frequency": 400,
         "position": [
-          0,
-          0,
-          0
+          -1,
+          -1,
+          -1
         ],
         "sustain": 299.9
       },
@@ -311,9 +311,9 @@
         "gain": 1,
         "frequency": 300,
         "position": [
-          0,
-          0,
-          0
+          -2,
+          -2,
+          -2
         ],
         "sustain": 199.9
       },
@@ -322,9 +322,9 @@
         "gain": 1,
         "frequency": 200,
         "position": [
-          0,
-          0,
-          0
+          -3,
+          -3,
+          -3
         ],
         "sustain": 99.9
       }
