@@ -1,6 +1,6 @@
 import { PatternMaterial } from '@musical-patterns/compiler'
 import { PatternMetadata, PatternSpec } from '@musical-patterns/pattern'
-import { Pattern, PatternId } from '@musical-patterns/registry'
+import { buildPatterns, Pattern, PatternId, Patterns } from '@musical-patterns/registry'
 import { PERFORMER_QA_PATTERN_DURATION_SCALAR, PERFORMER_QA_PATTERN_PITCH_SCALAR } from './constants'
 import { buildEntities, buildScales } from './materials'
 
@@ -28,7 +28,12 @@ const pattern: Pattern = {
     spec,
 }
 
+const patterns: Patterns = buildPatterns({
+    [ pattern.patternId ]: pattern,
+})
+
 export {
     pattern,
+    patterns,
     spec,
 }
