@@ -1,6 +1,6 @@
 import { Material } from '@musical-patterns/compiler'
 import { Metadata } from '@musical-patterns/pattern'
-import { buildPatterns, PatternId, Patterns, StandardPattern } from '@musical-patterns/registry'
+import { buildPatterns, Id, Patterns, StandardPattern } from '@musical-patterns/registry'
 import { buildEntities, buildScales } from './materials'
 import { specData } from './specs'
 
@@ -19,14 +19,14 @@ const metadata: Metadata = {
 }
 
 const pattern: StandardPattern = {
+    id: Id.PERFORMER_QA,
     material,
     metadata,
-    patternId: PatternId.PERFORMER_QA,
     specData,
 }
 
 const patterns: Patterns = buildPatterns({
-    [ pattern.patternId ]: pattern,
+    [ pattern.id ]: pattern,
 })
 
 export {
