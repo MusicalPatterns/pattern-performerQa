@@ -10,7 +10,7 @@
           -3,
           -3
         ],
-        "sustain": 90
+        "sustain": 99.9
       },
       {
         "duration": 400,
@@ -21,7 +21,7 @@
           0,
           0
         ],
-        "sustain": 360
+        "sustain": 399.9
       },
       {
         "duration": 100,
@@ -32,7 +32,7 @@
           -3,
           -3
         ],
-        "sustain": 90
+        "sustain": 99.9
       },
       {
         "duration": 500,
@@ -43,7 +43,7 @@
           1,
           1
         ],
-        "sustain": 450
+        "sustain": 499.9
       },
       {
         "duration": 900,
@@ -54,7 +54,7 @@
           5,
           5
         ],
-        "sustain": 810
+        "sustain": 899.9
       },
       {
         "duration": 200,
@@ -65,7 +65,7 @@
           -2,
           -2
         ],
-        "sustain": 180
+        "sustain": 199.9
       },
       {
         "duration": 600,
@@ -76,7 +76,7 @@
           2,
           2
         ],
-        "sustain": 540
+        "sustain": 599.9
       },
       {
         "duration": 500,
@@ -87,7 +87,7 @@
           1,
           1
         ],
-        "sustain": 450
+        "sustain": 499.9
       },
       {
         "duration": 300,
@@ -98,7 +98,7 @@
           -1,
           -1
         ],
-        "sustain": 270
+        "sustain": 299.9
       },
       {
         "duration": 500,
@@ -109,7 +109,7 @@
           1,
           1
         ],
-        "sustain": 450
+        "sustain": 499.9
       },
       {
         "duration": 800,
@@ -120,7 +120,7 @@
           4,
           4
         ],
-        "sustain": 720
+        "sustain": 799.9
       },
       {
         "duration": 900,
@@ -131,7 +131,7 @@
           5,
           5
         ],
-        "sustain": 810
+        "sustain": 899.9
       },
       {
         "duration": 700,
@@ -142,7 +142,7 @@
           3,
           3
         ],
-        "sustain": 630
+        "sustain": 699.9
       },
       {
         "duration": 900,
@@ -153,7 +153,7 @@
           5,
           5
         ],
-        "sustain": 810
+        "sustain": 899.9
       },
       {
         "duration": 300,
@@ -164,7 +164,7 @@
           -1,
           -1
         ],
-        "sustain": 270
+        "sustain": 299.9
       },
       {
         "duration": 200,
@@ -175,7 +175,7 @@
           -2,
           -2
         ],
-        "sustain": 180
+        "sustain": 199.9
       },
       {
         "duration": 300,
@@ -186,7 +186,7 @@
           -1,
           -1
         ],
-        "sustain": 270
+        "sustain": 299.9
       },
       {
         "duration": 800,
@@ -197,7 +197,7 @@
           4,
           4
         ],
-        "sustain": 720
+        "sustain": 799.9
       },
       {
         "duration": 400,
@@ -208,7 +208,7 @@
           0,
           0
         ],
-        "sustain": 360
+        "sustain": 399.9
       }
     ],
     "voiceSpec": {
@@ -227,7 +227,7 @@
           3,
           3
         ],
-        "sustain": 630
+        "sustain": 699.9
       },
       {
         "duration": 100,
@@ -238,7 +238,7 @@
           -3,
           -3
         ],
-        "sustain": 90
+        "sustain": 99.9
       },
       {
         "duration": 600,
@@ -249,7 +249,7 @@
           2,
           2
         ],
-        "sustain": 540
+        "sustain": 599.9
       },
       {
         "duration": 800,
@@ -260,7 +260,7 @@
           4,
           4
         ],
-        "sustain": 720
+        "sustain": 799.9
       },
       {
         "duration": 100,
@@ -271,7 +271,7 @@
           -3,
           -3
         ],
-        "sustain": 90
+        "sustain": 99.9
       },
       {
         "duration": 700,
@@ -282,7 +282,7 @@
           3,
           3
         ],
-        "sustain": 630
+        "sustain": 699.9
       },
       {
         "duration": 300,
@@ -293,7 +293,7 @@
           -1,
           -1
         ],
-        "sustain": 270
+        "sustain": 299.9
       },
       {
         "duration": 400,
@@ -304,7 +304,7 @@
           0,
           0
         ],
-        "sustain": 360
+        "sustain": 399.9
       },
       {
         "duration": 200,
@@ -315,7 +315,7 @@
           -2,
           -2
         ],
-        "sustain": 180
+        "sustain": 199.9
       },
       {
         "duration": 100,
@@ -326,7 +326,7 @@
           -3,
           -3
         ],
-        "sustain": 90
+        "sustain": 99.9
       }
     ],
     "voiceSpec": {
