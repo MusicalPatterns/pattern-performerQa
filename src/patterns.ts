@@ -9,7 +9,7 @@ const material: Material = {
 }
 
 const metadata: Metadata = {
-    // tslint:disable-next-line:max-line-length
+    // tslint:disable-next-line max-line-length
     description: 'pattern for qa\'ing performer, since ears are strong and it\'s hard to automatically test that it still sounds good',
     formattedName: 'Performer QA',
     mostRecentPublish: process.env.PUBLISH_DATE || '2018-12-19T07:00:00.000Z',
