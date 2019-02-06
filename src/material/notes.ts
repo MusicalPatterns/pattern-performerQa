@@ -11,18 +11,18 @@ const buildNoteSpec: (blockElement: number) => NoteSpec =
                 scaleIndex: STANDARD_DURATIONS_SCALE_INDEX,
             },
             pitchSpec: {
-                index: to.Index(blockElement),
+                index: to.Ordinal(blockElement),
                 scaleIndex: STANDARD_PITCH_SCALE_INDEX,
             },
             positionSpec: [
                 {
-                    scalar: to.Scalar(apply.Offset(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
+                    scalar: to.Scalar(apply.Translation(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
                 },
                 {
-                    scalar: to.Scalar(apply.Offset(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
+                    scalar: to.Scalar(apply.Translation(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
                 },
                 {
-                    scalar: to.Scalar(apply.Offset(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
+                    scalar: to.Scalar(apply.Translation(blockElement, CENTER_BLOCKS_ON_ORIGIN)),
                 },
             ],
         })
