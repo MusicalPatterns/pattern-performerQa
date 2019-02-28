@@ -1,25 +1,23 @@
 import { BuildEntitiesFunction, Entity, TimbreNameEnum } from '@musical-patterns/compiler'
 import { buildParts } from './parts'
+import { PerformerQaParts } from './types'
 
 const buildEntities: BuildEntitiesFunction =
     (): Entity[] => {
-        const {
-            firstPart,
-            secondPart,
-        } = buildParts()
+        const parts: PerformerQaParts = buildParts()
 
-        const firstEntity: Entity = {
-            noteSpecs: firstPart,
+        const oscillator: Entity = {
+            noteSpecs: parts.oscillator,
             timbreName: TimbreNameEnum.SAW,
         }
-        const secondEntity: Entity = {
-            noteSpecs: secondPart,
+        const sample: Entity = {
+            noteSpecs: parts.sample,
             timbreName: TimbreNameEnum.PIANO,
         }
 
         return [
-            firstEntity,
-            secondEntity,
+            oscillator,
+            sample,
         ]
     }
 

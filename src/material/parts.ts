@@ -1,20 +1,17 @@
 import { NoteSpec } from '@musical-patterns/compiler'
-import { DictionaryOf } from '@musical-patterns/utilities'
 import { buildBlocks } from './blocks'
 import { buildNoteSpec } from './notes'
+import { PerformerQaBlocks, PerformerQaParts } from './types'
 
-const buildParts: () => DictionaryOf<NoteSpec[]> =
-    (): DictionaryOf<NoteSpec[]> => {
-        const {
-            firstBlock,
-            secondBlock,
-        } = buildBlocks()
-        const firstPart: NoteSpec[] = firstBlock.map(buildNoteSpec)
-        const secondPart: NoteSpec[] = secondBlock.map(buildNoteSpec)
+const buildParts: () => PerformerQaParts =
+    (): PerformerQaParts => {
+        const blocks: PerformerQaBlocks = buildBlocks()
+        const oscillator: NoteSpec[] = blocks.oscillator.map(buildNoteSpec)
+        const sample: NoteSpec[] = blocks.sample.map(buildNoteSpec)
 
         return {
-            firstPart,
-            secondPart,
+            oscillator,
+            sample,
         }
     }
 
