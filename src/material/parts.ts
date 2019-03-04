@@ -1,13 +1,14 @@
 import { NoteSpec } from '@musical-patterns/compiler'
-import { buildBlocks } from './blocks'
+import { buildContours } from './contours'
 import { buildNoteSpec } from './notes'
-import { PerformerQaBlocks, PerformerQaParts } from './types'
+import { PerformerQaContours, PerformerQaParts } from './types'
 
 const buildParts: () => PerformerQaParts =
     (): PerformerQaParts => {
-        const blocks: PerformerQaBlocks = buildBlocks()
-        const oscillator: NoteSpec[] = blocks.oscillator.map(buildNoteSpec)
-        const sample: NoteSpec[] = blocks.sample.map(buildNoteSpec)
+        const contours: PerformerQaContours = buildContours()
+
+        const oscillator: NoteSpec[] = contours.oscillator.map(buildNoteSpec)
+        const sample: NoteSpec[] = contours.sample.map(buildNoteSpec)
 
         return {
             oscillator,

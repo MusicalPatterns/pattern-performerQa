@@ -1,5 +1,6 @@
 import { NoteSpec } from '@musical-patterns/compiler'
-import { Block, PropertyMap } from '@musical-patterns/utilities'
+import { PitchDurationXYZ } from '@musical-patterns/pattern'
+import { Block, ContourWhole, PropertyMap } from '@musical-patterns/utilities'
 
 interface PerformerQaMaterialSkeleton {
     oscillator: never,
@@ -8,9 +9,12 @@ interface PerformerQaMaterialSkeleton {
 
 type PerformerQaBlocks = PropertyMap<PerformerQaMaterialSkeleton, Block>
 
+type PerformerQaContours = PropertyMap<PerformerQaMaterialSkeleton, ContourWhole<PitchDurationXYZ>>
+
 type PerformerQaParts = PropertyMap<PerformerQaMaterialSkeleton, NoteSpec[]>
 
 export {
     PerformerQaBlocks,
+    PerformerQaContours,
     PerformerQaParts,
 }

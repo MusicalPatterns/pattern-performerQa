@@ -1,31 +1,30 @@
 import { NoteSpec } from '@musical-patterns/compiler'
-import { STANDARD_DURATIONS_SCALE_INDEX, STANDARD_PITCH_SCALE_INDEX } from '@musical-patterns/pattern'
-import { apply, to } from '@musical-patterns/utilities'
+import { PitchDurationXYZ, STANDARD_DURATIONS_SCALE_INDEX, STANDARD_PITCH_SCALE_INDEX } from '@musical-patterns/pattern'
+import { apply, ContourElement, to } from '@musical-patterns/utilities'
 import { CENTER_BLOCKS_ON_ORIGIN } from './constants'
 
-const buildNoteSpec: (cell: number) => NoteSpec =
-    (cell: number): NoteSpec =>
-        ({
-            durationSpec: {
-                scalar: to.Scalar(cell),
-                scaleIndex: STANDARD_DURATIONS_SCALE_INDEX,
+const buildNoteSpec: (contourElement: ContourElement<PitchDurationXYZ>) => NoteSpec =
+    ([ pitch, duration, x, y, z ]: ContourElement<PitchDurationXYZ>): NoteSpec => ({
+        durationSpec: {
+            scalar: to.Scalar(duration),
+            scaleIndex: STANDARD_DURATIONS_SCALE_INDEX,
+        },
+        pitchSpec: {
+            index: to.Ordinal(pitch),
+            scaleIndex: STANDARD_PITCH_SCALE_INDEX,
+        },
+        positionSpec: [
+            {
+                scalar: to.Scalar(apply.Translation(x, CENTER_BLOCKS_ON_ORIGIN)),
             },
-            pitchSpec: {
-                index: to.Ordinal(cell),
-                scaleIndex: STANDARD_PITCH_SCALE_INDEX,
+            {
+                scalar: to.Scalar(apply.Translation(y, CENTER_BLOCKS_ON_ORIGIN)),
             },
-            positionSpec: [
-                {
-                    scalar: to.Scalar(apply.Translation(cell, CENTER_BLOCKS_ON_ORIGIN)),
-                },
-                {
-                    scalar: to.Scalar(apply.Translation(cell, CENTER_BLOCKS_ON_ORIGIN)),
-                },
-                {
-                    scalar: to.Scalar(apply.Translation(cell, CENTER_BLOCKS_ON_ORIGIN)),
-                },
-            ],
-        })
+            {
+                scalar: to.Scalar(apply.Translation(z, CENTER_BLOCKS_ON_ORIGIN)),
+            },
+        ],
+    })
 
 export {
     buildNoteSpec,
