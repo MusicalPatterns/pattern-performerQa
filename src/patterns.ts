@@ -1,7 +1,7 @@
 import { Material } from '@musical-patterns/compiler'
 import { Id, Metadata, Patterns, StandardPattern } from '@musical-patterns/pattern'
 import { buildEntities, buildScales } from './material'
-import { specData } from './spec'
+import { data } from './spec'
 
 const material: Material = {
     buildEntitiesFunction: buildEntities,
@@ -9,7 +9,7 @@ const material: Material = {
 }
 
 const metadata: Metadata = {
-    description: 'pattern for qa\'ing the performer',
+    description: `pattern for qa'ing the performer`,
     formattedName: 'Performer QA',
     mostRecentPublish: process.env.PUBLISH_DATE || '2018-12-19T07:00:00.000Z',
     musicalIdeaIllustrated: 'assure quality of all the things!',
@@ -18,10 +18,10 @@ const metadata: Metadata = {
 }
 
 const pattern: StandardPattern = {
+    data,
     id: Id.PERFORMER_QA,
     material,
     metadata,
-    specData,
 }
 
 const patterns: Partial<Patterns> = {
