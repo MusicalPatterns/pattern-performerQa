@@ -1,17 +1,17 @@
-import { BuildScalesFunction, Scale } from '@musical-patterns/compiler'
-import { buildFlatDurationsScale, buildStandardScales, StandardSpec } from '@musical-patterns/pattern'
+import { MaterializeScales, Scale } from '@musical-patterns/compiler'
+import { buildFlatDurationsScale, materializeStandardScales, StandardSpec } from '@musical-patterns/pattern'
 import { Scalar } from '@musical-patterns/utilities'
 
-const buildScales: BuildScalesFunction =
+const materializeScales: MaterializeScales =
     (spec: StandardSpec): Scale[] => {
         const flatDurationsScalars: Scalar[] = buildFlatDurationsScale().scalars || []
 
-        return buildStandardScales(
+        return materializeStandardScales(
             spec,
             { durationScalars: flatDurationsScalars, pitchScalars: flatDurationsScalars },
         )
     }
 
 export {
-    buildScales,
+    materializeScales,
 }

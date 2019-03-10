@@ -1,4 +1,4 @@
-import { NoteSpec } from '@musical-patterns/compiler'
+import { Note } from '@musical-patterns/compiler'
 import { PitchDurationXYZ } from '@musical-patterns/pattern'
 import { Block, ContourWhole, KeyMap } from '@musical-patterns/utilities'
 
@@ -11,10 +11,10 @@ type PerformerQaBlocks = KeyMap<PerformerQaMaterialSkeleton, Block>
 
 type PerformerQaContours = KeyMap<PerformerQaMaterialSkeleton, ContourWhole<PitchDurationXYZ>>
 
-type PerformerQaParts = KeyMap<PerformerQaMaterialSkeleton, NoteSpec[]>
+type PerformerQaNotes = KeyMap<PerformerQaMaterialSkeleton, Note[]>
 
 export {
     PerformerQaBlocks,
     PerformerQaContours,
-    PerformerQaParts,
+    PerformerQaNotes,
 }

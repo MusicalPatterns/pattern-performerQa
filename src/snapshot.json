@@ -1,6 +1,6 @@
 [
   {
-    "notes": [
+    "sounds": [
       {
         "duration": 100,
         "gain": 1,
@@ -211,13 +211,13 @@
         "sustain": 399.9
       }
     ],
-    "voiceSpec": {
+    "sourceRequest": {
       "timbreName": "SAW",
-      "voiceType": "OSCILLATOR"
+      "sourceType": "OSCILLATOR"
     }
   },
   {
-    "notes": [
+    "sounds": [
       {
         "duration": 700,
         "gain": 1,
@@ -329,9 +329,9 @@
         "sustain": 99.9
       }
     ],
-    "voiceSpec": {
+    "sourceRequest": {
       "timbreName": "PIANO",
-      "voiceType": "SAMPLE"
+      "sourceType": "SAMPLE"
     }
   }
 ]

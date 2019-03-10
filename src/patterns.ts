@@ -1,11 +1,11 @@
 import { Material } from '@musical-patterns/compiler'
 import { Id, Metadata, Patterns, StandardPattern } from '@musical-patterns/pattern'
-import { buildEntities, buildScales } from './material'
+import { materializeEntities, materializeScales } from './material'
 import { data } from './spec'
 
 const material: Material = {
-    buildEntitiesFunction: buildEntities,
-    buildScalesFunction: buildScales,
+    materializeEntities,
+    materializeScales,
 }
 
 const metadata: Metadata = {
