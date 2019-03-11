@@ -1,14 +1,14 @@
 import { Note } from '@musical-patterns/compiler'
-import { buildContours } from './contours'
-import { buildNote } from './features'
+import { computeContours } from './contours'
+import { computeNote } from './features'
 import { PerformerQaContours, PerformerQaNotes } from './types'
 
-const buildNotes: () => PerformerQaNotes =
+const computeNotes: () => PerformerQaNotes =
     (): PerformerQaNotes => {
-        const contours: PerformerQaContours = buildContours()
+        const contours: PerformerQaContours = computeContours()
 
-        const oscillator: Note[] = contours.oscillator.map(buildNote)
-        const sample: Note[] = contours.sample.map(buildNote)
+        const oscillator: Note[] = contours.oscillator.map(computeNote)
+        const sample: Note[] = contours.sample.map(computeNote)
 
         return {
             oscillator,
@@ -17,5 +17,5 @@ const buildNotes: () => PerformerQaNotes =
     }
 
 export {
-    buildNotes,
+    computeNotes,
 }

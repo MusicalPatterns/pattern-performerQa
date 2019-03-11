@@ -3,7 +3,7 @@ import { PitchDurationXYZ, STANDARD_DURATIONS_SCALE_INDEX, STANDARD_PITCH_SCALE_
 import { apply, ContourElement, to } from '@musical-patterns/utilities'
 import { CENTER_BLOCKS_ON_ORIGIN } from './constants'
 
-const buildNote: (contourElement: ContourElement<PitchDurationXYZ>) => Note =
+const computeNote: (contourElement: ContourElement<PitchDurationXYZ>) => Note =
     ([ pitch, duration, x, y, z ]: ContourElement<PitchDurationXYZ>): Note => ({
         duration: {
             scalar: to.Scalar(duration),
@@ -27,5 +27,5 @@ const buildNote: (contourElement: ContourElement<PitchDurationXYZ>) => Note =
     })
 
 export {
-    buildNote,
+    computeNote,
 }
