@@ -7,11 +7,11 @@ const materializeEntities: MaterializeEntities =
         const notes: PerformerQaNotes = computeNotes()
 
         const oscillator: Entity = {
-            notes: notes.oscillator,
+            sections: [ { notes: notes.oscillator } ],
             timbreName: TimbreNameEnum.SAW,
         }
         const sample: Entity = {
-            notes: notes.sample,
+            sections: [ { notes: notes.sample } ],
             timbreName: TimbreNameEnum.PIANO,
         }
 
