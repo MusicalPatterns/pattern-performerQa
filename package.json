@@ -1,6 +1,6 @@
 {
   "name": "@musical-patterns/pattern-performer-qa",
-  "version": "1.0.111",
+  "version": "1.0.112",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "license": "MIT",
@@ -9,14 +9,14 @@
     "url": "https://github.com/MusicalPatterns/pattern-performerQa.git"
   },
   "dependencies": {
-    "@musical-patterns/compiler": "^1.0.137",
-    "@musical-patterns/pattern": "^1.0.240",
+    "@musical-patterns/compiler": "^1.0.139",
+    "@musical-patterns/pattern": "^1.0.241",
     "@musical-patterns/utilities": "^1.0.401"
   },
   "devDependencies": {
     "@musical-patterns/cli": "^1.0.506",
-    "@musical-patterns/performer": "^1.0.231",
-    "@musical-patterns/playroom": "^1.0.363",
-    "@musical-patterns/snapshot": "^1.0.66"
+    "@musical-patterns/performer": "^1.0.235",
+    "@musical-patterns/playroom": "^1.0.364",
+    "@musical-patterns/snapshot": "^1.0.67"
   }
 }
