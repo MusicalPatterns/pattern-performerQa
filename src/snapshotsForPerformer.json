@@ -1,0 +1,347 @@
+{
+  "initial": [
+    {
+      "sections": [
+        {
+          "sounds": [
+            {
+              "duration": 100,
+              "gain": 1,
+              "frequency": 200,
+              "position": [
+                -3,
+                -3,
+                -3
+              ],
+              "sustain": 99.9
+            },
+            {
+              "duration": 400,
+              "gain": 1,
+              "frequency": 500,
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "sustain": 399.9
+            },
+            {
+              "duration": 100,
+              "gain": 1,
+              "frequency": 200,
+              "position": [
+                -3,
+                -3,
+                -3
+              ],
+              "sustain": 99.9
+            },
+            {
+              "duration": 500,
+              "gain": 1,
+              "frequency": 600,
+              "position": [
+                1,
+                1,
+                1
+              ],
+              "sustain": 499.9
+            },
+            {
+              "duration": 900,
+              "gain": 1,
+              "frequency": 1000,
+              "position": [
+                5,
+                5,
+                5
+              ],
+              "sustain": 899.9
+            },
+            {
+              "duration": 200,
+              "gain": 1,
+              "frequency": 300,
+              "position": [
+                -2,
+                -2,
+                -2
+              ],
+              "sustain": 199.9
+            },
+            {
+              "duration": 600,
+              "gain": 1,
+              "frequency": 700,
+              "position": [
+                2,
+                2,
+                2
+              ],
+              "sustain": 599.9
+            },
+            {
+              "duration": 500,
+              "gain": 1,
+              "frequency": 600,
+              "position": [
+                1,
+                1,
+                1
+              ],
+              "sustain": 499.9
+            },
+            {
+              "duration": 300,
+              "gain": 1,
+              "frequency": 400,
+              "position": [
+                -1,
+                -1,
+                -1
+              ],
+              "sustain": 299.9
+            },
+            {
+              "duration": 500,
+              "gain": 1,
+              "frequency": 600,
+              "position": [
+                1,
+                1,
+                1
+              ],
+              "sustain": 499.9
+            },
+            {
+              "duration": 800,
+              "gain": 1,
+              "frequency": 900,
+              "position": [
+                4,
+                4,
+                4
+              ],
+              "sustain": 799.9
+            },
+            {
+              "duration": 900,
+              "gain": 1,
+              "frequency": 1000,
+              "position": [
+                5,
+                5,
+                5
+              ],
+              "sustain": 899.9
+            },
+            {
+              "duration": 700,
+              "gain": 1,
+              "frequency": 800,
+              "position": [
+                3,
+                3,
+                3
+              ],
+              "sustain": 699.9
+            },
+            {
+              "duration": 900,
+              "gain": 1,
+              "frequency": 1000,
+              "position": [
+                5,
+                5,
+                5
+              ],
+              "sustain": 899.9
+            },
+            {
+              "duration": 300,
+              "gain": 1,
+              "frequency": 400,
+              "position": [
+                -1,
+                -1,
+                -1
+              ],
+              "sustain": 299.9
+            },
+            {
+              "duration": 200,
+              "gain": 1,
+              "frequency": 300,
+              "position": [
+                -2,
+                -2,
+                -2
+              ],
+              "sustain": 199.9
+            },
+            {
+              "duration": 300,
+              "gain": 1,
+              "frequency": 400,
+              "position": [
+                -1,
+                -1,
+                -1
+              ],
+              "sustain": 299.9
+            },
+            {
+              "duration": 800,
+              "gain": 1,
+              "frequency": 900,
+              "position": [
+                4,
+                4,
+                4
+              ],
+              "sustain": 799.9
+            },
+            {
+              "duration": 400,
+              "gain": 1,
+              "frequency": 500,
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "sustain": 399.9
+            }
+          ]
+        }
+      ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SAW"
+      }
+    },
+    {
+      "sections": [
+        {
+          "sounds": [
+            {
+              "duration": 700,
+              "gain": 1,
+              "frequency": 800,
+              "position": [
+                3,
+                3,
+                3
+              ],
+              "sustain": 699.9
+            },
+            {
+              "duration": 100,
+              "gain": 1,
+              "frequency": 200,
+              "position": [
+                -3,
+                -3,
+                -3
+              ],
+              "sustain": 99.9
+            },
+            {
+              "duration": 600,
+              "gain": 1,
+              "frequency": 700,
+              "position": [
+                2,
+                2,
+                2
+              ],
+              "sustain": 599.9
+            },
+            {
+              "duration": 800,
+              "gain": 1,
+              "frequency": 900,
+              "position": [
+                4,
+                4,
+                4
+              ],
+              "sustain": 799.9
+            },
+            {
+              "duration": 100,
+              "gain": 1,
+              "frequency": 200,
+              "position": [
+                -3,
+                -3,
+                -3
+              ],
+              "sustain": 99.9
+            },
+            {
+              "duration": 700,
+              "gain": 1,
+              "frequency": 800,
+              "position": [
+                3,
+                3,
+                3
+              ],
+              "sustain": 699.9
+            },
+            {
+              "duration": 300,
+              "gain": 1,
+              "frequency": 400,
+              "position": [
+                -1,
+                -1,
+                -1
+              ],
+              "sustain": 299.9
+            },
+            {
+              "duration": 400,
+              "gain": 1,
+              "frequency": 500,
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "sustain": 399.9
+            },
+            {
+              "duration": 200,
+              "gain": 1,
+              "frequency": 300,
+              "position": [
+                -2,
+                -2,
+                -2
+              ],
+              "sustain": 199.9
+            },
+            {
+              "duration": 100,
+              "gain": 1,
+              "frequency": 200,
+              "position": [
+                -3,
+                -3,
+                -3
+              ],
+              "sustain": 99.9
+            }
+          ]
+        }
+      ],
+      "sourceRequest": {
+        "sourceType": "SAMPLE",
+        "timbreName": "PIANO"
+      }
+    }
+  ]
+}
