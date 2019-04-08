@@ -1,4 +1,4 @@
-import { MaterializeScales, Scale } from '@musical-patterns/compiler'
+import { MaterializeScales, Scale } from '@musical-patterns/material'
 import { computeFlatDurationsScale, materializeStandardScales, StandardSpecs } from '@musical-patterns/pattern'
 import { Scalar } from '@musical-patterns/utilities'
 

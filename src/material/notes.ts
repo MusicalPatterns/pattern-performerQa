@@ -1,4 +1,4 @@
-import { Note } from '@musical-patterns/compiler'
+import { Note } from '@musical-patterns/material'
 import { computeContours } from './contours'
 import { computeNote } from './features'
 import { PerformerQaContours, PerformerQaNotes } from './types'
