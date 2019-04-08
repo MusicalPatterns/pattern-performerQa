@@ -1,5 +1,10 @@
-import { MaterializeScales, Scale } from '@musical-patterns/material'
-import { computeFlatDurationsScale, materializeStandardScales, StandardSpecs } from '@musical-patterns/pattern'
+import {
+    computeFlatDurationsScale,
+    MaterializeScales,
+    materializeStandardScales,
+    Scale,
+} from '@musical-patterns/material'
+import { StandardSpecs } from '@musical-patterns/spec'
 import { Scalar } from '@musical-patterns/utilities'
 
 const materializeScales: MaterializeScales =

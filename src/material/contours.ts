@@ -1,4 +1,4 @@
-import { PitchDurationXYZ } from '@musical-patterns/pattern'
+import { PitchDurationXYZ } from '@musical-patterns/material'
 import { ContourElement, ContourWhole, to } from '@musical-patterns/utilities'
 import { computeBlocks } from './blocks'
 import { PerformerQaBlocks, PerformerQaContours } from './types'

@@ -1,4 +1,4 @@
-import { Metadata } from '@musical-patterns/pattern'
+import { Metadata } from '@musical-patterns/metadata'
 
 const metadata: Metadata = {
     description: `pattern for qa'ing the performer`,
