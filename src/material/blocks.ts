@@ -14,6 +14,18 @@ const computeBlocks: () => PerformerQaBlocks =
         }
     }
 
+const computeDelayBlocks: () => PerformerQaBlocks =
+    (): PerformerQaBlocks => {
+        const oscillator: Block = to.Block([ 7 ])
+        const sample: Block = to.Block([ 7 ])
+
+        return {
+            oscillator,
+            sample,
+        }
+    }
+
 export {
     computeBlocks,
+    computeDelayBlocks,
 }

@@ -1,1 +1,1 @@
-export { metadata } from './metadatas'
+export { metadata, delayMetadata } from './metadatas'

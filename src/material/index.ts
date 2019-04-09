@@ -1,1 +1,1 @@
-export { material } from './materials'
+export { delayMaterial, material } from './materials'
