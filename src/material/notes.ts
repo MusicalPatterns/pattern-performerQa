@@ -1,11 +1,11 @@
 import { Note } from '@musical-patterns/material'
 import { computeContours, computeDelayContours } from './contours'
 import { computeNote } from './features'
-import { PerformerQaContours, PerformerQaNotes } from './types'
+import { MaterialQaContours, MaterialQaNotes } from './types'
 
-const computeNotes: () => PerformerQaNotes =
-    (): PerformerQaNotes => {
-        const contours: PerformerQaContours = computeContours()
+const computeNotes: () => MaterialQaNotes =
+    (): MaterialQaNotes => {
+        const contours: MaterialQaContours = computeContours()
 
         const oscillator: Note[] = contours.oscillator.map(computeNote)
         const sample: Note[] = contours.sample.map(computeNote)
@@ -16,9 +16,9 @@ const computeNotes: () => PerformerQaNotes =
         }
     }
 
-const computeDelayNotes: () => PerformerQaNotes =
-    (): PerformerQaNotes => {
-        const contours: PerformerQaContours = computeDelayContours()
+const computeDelayNotes: () => MaterialQaNotes =
+    (): MaterialQaNotes => {
+        const contours: MaterialQaContours = computeDelayContours()
         const oscillator: Note[] = contours.oscillator.map(computeNote)
         const sample: Note[] = contours.sample.map(computeNote)
 

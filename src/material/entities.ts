@@ -1,11 +1,11 @@
 import { Entity, MaterializeEntities, TimbreNameEnum } from '@musical-patterns/material'
-import { PERFORMER_QA_DELAY } from './constants'
+import { MATERIAL_QA_DELAY } from './constants'
 import { computeDelayNotes, computeNotes } from './notes'
-import { PerformerQaNotes } from './types'
+import { MaterialQaNotes } from './types'
 
 const materializeEntities: MaterializeEntities =
     (): Entity[] => {
-        const notes: PerformerQaNotes = computeNotes()
+        const notes: MaterialQaNotes = computeNotes()
 
         const oscillator: Entity = {
             sections: [ { notes: notes.oscillator } ],
@@ -24,10 +24,10 @@ const materializeEntities: MaterializeEntities =
 
 const materializeDelayEntities: MaterializeEntities =
     (): Entity[] => {
-        const notes: PerformerQaNotes = computeDelayNotes()
+        const notes: MaterialQaNotes = computeDelayNotes()
 
         const oscillator: Entity = {
-            delay: PERFORMER_QA_DELAY,
+            delay: MATERIAL_QA_DELAY,
             sections: [ { notes: notes.oscillator } ],
             timbreName: TimbreNameEnum.SAW,
         }

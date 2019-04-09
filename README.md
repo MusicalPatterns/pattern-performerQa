@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/MusicalPatterns/pattern-performerQa.svg?branch=master)](https://travis-ci.com/MusicalPatterns/pattern-performerQa)
+[![Build Status](https://travis-ci.com/MusicalPatterns/pattern-materialQa.svg?branch=master)](https://travis-ci.com/MusicalPatterns/pattern-materialQa)
 
-# Performer QA
+# Material QA
 
-minimally prove out the full potential of the performer (oscillators, samples, immersion, etc.)
+minimally prove out the full potential of the material service (oscillators, samples, immersion, etc.)

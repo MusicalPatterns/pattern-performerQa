@@ -5,14 +5,14 @@ import { delayMetadata, metadata } from './metadata'
 import { spec } from './spec'
 
 const pattern: StandardPattern = {
-    id: Id.PERFORMER_QA,
+    id: Id.MATERIAL_QA,
     material,
     metadata,
     spec,
 }
 
 const delayPattern: StandardPattern = {
-    id: Id.PERFORMER_QA_DELAY,
+    id: Id.MATERIAL_QA_DELAY,
     material: delayMaterial,
     metadata: delayMetadata,
     spec,

@@ -2,7 +2,7 @@
 <project version="4">
     <component name="ProjectModuleManager">
         <modules>
-            <module fileurl="file://$PROJECT_DIR$/.idea/performerQa.iml" filepath="$PROJECT_DIR$/.idea/performerQa.iml" />
+            <module fileurl="file://$PROJECT_DIR$/.idea/materialQa.iml" filepath="$PROJECT_DIR$/.idea/materialQa.iml" />
         </modules>
     </component>
 </project>

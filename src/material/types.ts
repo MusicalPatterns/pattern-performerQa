@@ -1,19 +1,19 @@
 import { Note, PitchDurationXYZ } from '@musical-patterns/material'
 import { Block, ContourWhole, KeyMap } from '@musical-patterns/utilities'
 
-interface PerformerQaMaterialSkeleton {
+interface MaterialQaMaterialSkeleton {
     oscillator: never,
     sample: never,
 }
 
-type PerformerQaBlocks = KeyMap<PerformerQaMaterialSkeleton, Block>
+type MaterialQaBlocks = KeyMap<MaterialQaMaterialSkeleton, Block>
 
-type PerformerQaContours = KeyMap<PerformerQaMaterialSkeleton, ContourWhole<PitchDurationXYZ>>
+type MaterialQaContours = KeyMap<MaterialQaMaterialSkeleton, ContourWhole<PitchDurationXYZ>>
 
-type PerformerQaNotes = KeyMap<PerformerQaMaterialSkeleton, Note[]>
+type MaterialQaNotes = KeyMap<MaterialQaMaterialSkeleton, Note[]>
 
 export {
-    PerformerQaBlocks,
-    PerformerQaContours,
-    PerformerQaNotes,
+    MaterialQaBlocks,
+    MaterialQaContours,
+    MaterialQaNotes,
 }
