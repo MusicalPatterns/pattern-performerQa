@@ -14,7 +14,7 @@ const computeNote: (contourElement: ContourElement<PitchDurationXYZ>) => Note =
             scaleIndex: STANDARD_DURATIONS_SCALE_INDEX,
         },
         pitch: {
-            index: to.Ordinal(pitch),
+            index: to.Index(pitch),
             scaleIndex: STANDARD_PITCH_SCALE_INDEX,
         },
         position: [
