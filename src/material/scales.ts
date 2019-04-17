@@ -5,15 +5,18 @@ import {
     Scale,
 } from '@musical-patterns/material'
 import { StandardSpecs } from '@musical-patterns/spec'
-import { Scalar } from '@musical-patterns/utilities'
+import { Hz, insteadOf, Ms, Scalar } from '@musical-patterns/utilities'
 
 const materializeScales: MaterializeScales =
     (specs: StandardSpecs): Scale[] => {
-        const flatDurationsScalars: Scalar[] = computeFlatDurationsScale().scalars || []
+        const flatDurationsScalars: Array<Scalar<Ms>> = computeFlatDurationsScale().scalars || []
+        const flatPitchScalars: Array<Scalar<Hz>> =
+            // tslint:disable-next-line no-unnecessary-callback-wrapper
+            flatDurationsScalars.map((scalar: Scalar<Ms>) => insteadOf<Scalar, Hz>(scalar))
 
         return materializeStandardScales(
             specs,
-            { durationScalars: flatDurationsScalars, pitchScalars: flatDurationsScalars },
+            { durationScalars: flatDurationsScalars, pitchScalars: flatPitchScalars },
         )
     }
 
