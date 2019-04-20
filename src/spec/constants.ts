@@ -1,9 +1,9 @@
 // tslint:disable no-magic-numbers
 
-import { Hz, Ms, Scalar, to } from '@musical-patterns/utilities'
+import { as, Hz, Ms, Scalar } from '@musical-patterns/utilities'
 
-const MATERIAL_QA_INITIAL_BASE_DURATION: Scalar<Ms> = to.Scalar<Ms>(100)
-const MATERIAL_QA_INITIAL_BASE_FREQUENCY: Scalar<Hz> = to.Scalar<Hz>(100)
+const MATERIAL_QA_INITIAL_BASE_DURATION: Scalar<Ms> = as.Scalar<Ms>(100)
+const MATERIAL_QA_INITIAL_BASE_FREQUENCY: Scalar<Hz> = as.Scalar<Hz>(100)
 
 export {
     MATERIAL_QA_INITIAL_BASE_DURATION,

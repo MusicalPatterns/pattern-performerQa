@@ -1,11 +1,11 @@
 import { PitchDurationXYZ } from '@musical-patterns/material'
-import { ContourElement, ContourWhole, to } from '@musical-patterns/utilities'
+import { as, ContourElement, ContourWhole } from '@musical-patterns/utilities'
 import { computeBlocks, computeDelayBlocks } from './blocks'
 import { MaterialQaBlocks, MaterialQaContours } from './types'
 
 const computeContourElement: (blockElement: number) => ContourElement<PitchDurationXYZ> =
     (blockElement: number): ContourElement<PitchDurationXYZ> =>
-        to.ContourElement<PitchDurationXYZ>([
+        as.ContourElement<PitchDurationXYZ>([
             blockElement,
             blockElement,
             blockElement,
@@ -17,10 +17,10 @@ const computeContours: () => MaterialQaContours =
     (): MaterialQaContours => {
         const blocks: MaterialQaBlocks = computeBlocks()
 
-        const oscillator: ContourWhole<PitchDurationXYZ> = to.ContourWhole<PitchDurationXYZ>(
+        const oscillator: ContourWhole<PitchDurationXYZ> = as.ContourWhole<PitchDurationXYZ>(
             blocks.oscillator.map(computeContourElement),
         )
-        const sample: ContourWhole<PitchDurationXYZ> = to.ContourWhole<PitchDurationXYZ>(
+        const sample: ContourWhole<PitchDurationXYZ> = as.ContourWhole<PitchDurationXYZ>(
             blocks.sample.map(computeContourElement),
         )
 
@@ -34,10 +34,10 @@ const computeDelayContours: () => MaterialQaContours =
     (): MaterialQaContours => {
         const blocks: MaterialQaBlocks = computeDelayBlocks()
 
-        const oscillator: ContourWhole<PitchDurationXYZ> = to.ContourWhole<PitchDurationXYZ>(
+        const oscillator: ContourWhole<PitchDurationXYZ> = as.ContourWhole<PitchDurationXYZ>(
             blocks.oscillator.map(computeContourElement),
         )
-        const sample: ContourWhole<PitchDurationXYZ> = to.ContourWhole<PitchDurationXYZ>(
+        const sample: ContourWhole<PitchDurationXYZ> = as.ContourWhole<PitchDurationXYZ>(
             blocks.sample.map(computeContourElement),
         )
 
