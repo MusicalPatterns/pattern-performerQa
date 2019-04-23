@@ -19,13 +19,13 @@ const computeNote: (contourElement: ContourElement<PitchDurationXYZ>) => Note =
         },
         position: [
             {
-                scalar: as.Scalar<Scalar>(use.Translation(x, CENTER_BLOCKS_ON_ORIGIN)),
+                scalar: as.Scalar<Scalar>(use.Cardinal(x, CENTER_BLOCKS_ON_ORIGIN)),
             },
             {
-                scalar: as.Scalar<Scalar>(use.Translation(y, CENTER_BLOCKS_ON_ORIGIN)),
+                scalar: as.Scalar<Scalar>(use.Cardinal(y, CENTER_BLOCKS_ON_ORIGIN)),
             },
             {
-                scalar: as.Scalar<Scalar>(use.Translation(z, CENTER_BLOCKS_ON_ORIGIN)),
+                scalar: as.Scalar<Scalar>(use.Cardinal(z, CENTER_BLOCKS_ON_ORIGIN)),
             },
         ],
     })
