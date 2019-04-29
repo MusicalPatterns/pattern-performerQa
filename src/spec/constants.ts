@@ -1,9 +1,9 @@
 // tslint:disable no-magic-numbers
 
-import { as, Duration, Hz, Ms, Pitch } from '@musical-patterns/utilities'
+import { Duration, musicalAs, Pitch } from '@musical-patterns/utilities'
 
-const MATERIAL_QA_INITIAL_BASIS_DURATION: Duration = as.Delta<Ms>(100)
-const MATERIAL_QA_INITIAL_BASIS_FREQUENCY: Pitch = as.Point<Hz>(100)
+const MATERIAL_QA_INITIAL_BASIS_DURATION: Duration = musicalAs.Duration(100)
+const MATERIAL_QA_INITIAL_BASIS_FREQUENCY: Pitch = musicalAs.Pitch(100)
 
 export {
     MATERIAL_QA_INITIAL_BASIS_DURATION,
