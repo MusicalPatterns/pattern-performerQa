@@ -1,18 +1,14 @@
 import {
     Note,
-    PitchDurationXYZ,
-    STANDARD_DURATION_SCALE_INDEX,
+    PitchValueXYZ,
     STANDARD_PITCH_SCALE_INDEX,
+    STANDARD_VALUE_SCALE_INDEX,
 } from '@musical-patterns/material'
-import { as, ContourElement, Duration, Pitch, Position, Scalar, use } from '@musical-patterns/utilities'
+import { as, ContourElement, Pitch, Position, Scalar, use, Value } from '@musical-patterns/utilities'
 import { CENTER_BLOCKS_ON_ORIGIN } from './constants'
 
-const computeNote: (contourElement: ContourElement<PitchDurationXYZ>) => Note =
-    ([ pitch, duration, x, y, z ]: ContourElement<PitchDurationXYZ>): Note => ({
-        duration: {
-            scalar: as.Scalar<Duration>(duration),
-            scaleIndex: STANDARD_DURATION_SCALE_INDEX,
-        },
+const computeNote: (contourElement: ContourElement<PitchValueXYZ>) => Note =
+    ([ pitch, value, x, y, z ]: ContourElement<PitchValueXYZ>): Note => ({
         pitch: {
             index: as.Ordinal<Array<Scalar<Pitch>>>(pitch),
             scaleIndex: STANDARD_PITCH_SCALE_INDEX,
@@ -28,6 +24,10 @@ const computeNote: (contourElement: ContourElement<PitchDurationXYZ>) => Note =
                 scalar: as.Scalar<Position>(use.Cardinal(z, CENTER_BLOCKS_ON_ORIGIN)),
             },
         ],
+        value: {
+            scalar: as.Scalar<Value>(value),
+            scaleIndex: STANDARD_VALUE_SCALE_INDEX,
+        },
     })
 
 export {
