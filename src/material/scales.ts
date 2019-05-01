@@ -1,9 +1,9 @@
-import { computeFlatValueScale, MaterializeScales, materializeStandardScales, Scale } from '@musical-patterns/material'
+import { computeFlatValueScale, MaterializeScales, materializeStandardScales, Scales } from '@musical-patterns/material'
 import { StandardSpecs } from '@musical-patterns/spec'
 import { insteadOf, Pitch, Scalar, Value } from '@musical-patterns/utilities'
 
 const materializeScales: MaterializeScales =
-    (specs: StandardSpecs): Scale[] => {
+    (specs: StandardSpecs): Scales => {
         const flatValueScalars: Array<Scalar<Value>> = computeFlatValueScale().scalars || []
         const flatPitchScalars: Array<Scalar<Pitch>> =
             // tslint:disable-next-line no-unnecessary-callback-wrapper
