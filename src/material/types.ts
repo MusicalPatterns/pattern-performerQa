@@ -1,7 +1,7 @@
 import { Note, PitchValueXYZ } from '@musical-patterns/material'
-import { Block, ContourWhole, KeyMap } from '@musical-patterns/utilities'
+import { Block, ContourWhole, KeyMap, ObjectOf } from '@musical-patterns/utilities'
 
-interface MaterialQaMaterialSkeleton {
+interface MaterialQaMaterialSkeleton extends ObjectOf<never> {
     oscillator: never,
     sample: never,
 }
