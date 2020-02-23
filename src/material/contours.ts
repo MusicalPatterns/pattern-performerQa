@@ -1,6 +1,6 @@
 import { PitchValueXYZ } from '@musical-patterns/material'
-import { as, ContourElement, ContourWhole } from '@musical-patterns/utilities'
-import { computeBlocks, computeDelayBlocks } from './blocks'
+import { as, ContourElement, ContourWhole, Thunk } from '@musical-patterns/utilities'
+import { thunkBlocks, thunkDelayBlocks } from './blocks'
 import { MaterialQaBlocks, MaterialQaContours } from './types'
 
 const computeContourElement: (blockElement: number) => ContourElement<PitchValueXYZ> =
@@ -13,9 +13,9 @@ const computeContourElement: (blockElement: number) => ContourElement<PitchValue
             blockElement,
         ])
 
-const computeContours: () => MaterialQaContours =
+const thunkContours: Thunk<MaterialQaContours> =
     (): MaterialQaContours => {
-        const blocks: MaterialQaBlocks = computeBlocks()
+        const blocks: MaterialQaBlocks = thunkBlocks()
 
         const oscillator: ContourWhole<PitchValueXYZ> = as.ContourWhole<PitchValueXYZ>(
             blocks.oscillator.map(computeContourElement),
@@ -30,9 +30,9 @@ const computeContours: () => MaterialQaContours =
         }
     }
 
-const computeDelayContours: () => MaterialQaContours =
+const thunkDelayContours: Thunk<MaterialQaContours> =
     (): MaterialQaContours => {
-        const blocks: MaterialQaBlocks = computeDelayBlocks()
+        const blocks: MaterialQaBlocks = thunkDelayBlocks()
 
         const oscillator: ContourWhole<PitchValueXYZ> = as.ContourWhole<PitchValueXYZ>(
             blocks.oscillator.map(computeContourElement),
@@ -48,6 +48,6 @@ const computeDelayContours: () => MaterialQaContours =
     }
 
 export {
-    computeContours,
-    computeDelayContours,
+    thunkContours,
+    thunkDelayContours,
 }

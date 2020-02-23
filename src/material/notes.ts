@@ -1,11 +1,12 @@
 import { Note } from '@musical-patterns/material'
-import { computeContours, computeDelayContours } from './contours'
+import { Thunk } from '@musical-patterns/utilities'
+import { thunkContours, thunkDelayContours } from './contours'
 import { computeNote } from './features'
 import { MaterialQaContours, MaterialQaNotes } from './types'
 
-const computeNotes: () => MaterialQaNotes =
+const thunkNotes: Thunk<MaterialQaNotes> =
     (): MaterialQaNotes => {
-        const contours: MaterialQaContours = computeContours()
+        const contours: MaterialQaContours = thunkContours()
 
         const oscillator: Note[] = contours.oscillator.map(computeNote)
         const sample: Note[] = contours.sample.map(computeNote)
@@ -16,9 +17,9 @@ const computeNotes: () => MaterialQaNotes =
         }
     }
 
-const computeDelayNotes: () => MaterialQaNotes =
+const thunkDelayNotes: Thunk<MaterialQaNotes> =
     (): MaterialQaNotes => {
-        const contours: MaterialQaContours = computeDelayContours()
+        const contours: MaterialQaContours = thunkDelayContours()
         const oscillator: Note[] = contours.oscillator.map(computeNote)
         const sample: Note[] = contours.sample.map(computeNote)
 
@@ -29,6 +30,6 @@ const computeDelayNotes: () => MaterialQaNotes =
     }
 
 export {
-    computeDelayNotes,
-    computeNotes,
+    thunkDelayNotes,
+    thunkNotes,
 }
